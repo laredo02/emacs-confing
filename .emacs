@@ -26,10 +26,16 @@
 (package-initialize)
 
 ;; LEAN4
-(add-to-list 'load-path "~/coding/emacs-modes/lean4-mode")
+(add-to-list 'load-path "~/.emacs.d/lean4-mode")
 (require 'lean4-mode)
 
 ;; GPTEL
+(gptel-make-gemini "Gemini" :key "AIzaSyDhNnwT0GvaThnzlz72_JXzzO4USnqN0tA" :stream t)
+(setq
+ gptel-model 'gemini-2.0-flash
+ gptel-backend (gptel-make-gemini "Gemini"
+                 :key "AIzaSyDhNnwT0GvaThnzlz72_JXzzO4USnqN0tA"
+                 :stream t))
 ;;(setq
 ;; gptel-model 'mistral:latest
 ;; gptel-backend (gptel-make-ollama "Ollama"
