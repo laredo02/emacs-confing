@@ -30,11 +30,11 @@
 (require 'lean4-mode)
 
 ;; GPTEL
-(gptel-make-gemini "Gemini" :key "AIzaSyDhNnwT0GvaThnzlz72_JXzzO4USnqN0tA" :stream t)
+(gptel-make-gemini "Gemini" :key "" :stream t)
 (setq
  gptel-model 'gemini-2.0-flash
  gptel-backend (gptel-make-gemini "Gemini"
-                 :key "AIzaSyDhNnwT0GvaThnzlz72_JXzzO4USnqN0tA"
+                 :key ""
                  :stream t))
 ;;(setq
 ;; gptel-model 'mistral:latest
