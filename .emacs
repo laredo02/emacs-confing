@@ -42,7 +42,7 @@
 
 
 ;; GPTEL
-;;(gptel-make-gemini "Gemini" :key "AIzaSyDhNnwT0GvaThnzlz72_JXzzO4USnqN0tA" :stream t)
+;;(gptel-make-gemini "Gemini" :key "aquivalaclavexdd" :stream t)
 ;;(setq
 ;; gptel-model 'gemini-2.5-flash
 ;; gptel-backend (gptel-make-gemini "Gemini"
